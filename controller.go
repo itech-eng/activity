@@ -3,8 +3,8 @@ package activity
 import (
 	"net/http"
 
-	"github.com/qor/admin"
-	"github.com/qor/responder"
+	"github.com/itech-eng/admin"
+	"github.com/itech-eng/responder"
 )
 
 type controller struct {

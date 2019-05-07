@@ -1,15 +1,15 @@
 # Activity
 
-Activity is dependant on [QOR Admin](https://github.com/qor/admin). It provides [QOR Admin](https://github.com/qor/admin) with an activity tracking feature for any Resource.
+Activity is dependant on [QOR Admin](https://github.com/itech-eng/admin). It provides [QOR Admin](https://github.com/itech-eng/admin) with an activity tracking feature for any Resource.
 
-Applying Activity to a Resource will add `Comment` and `Track` data/state changes within the [QOR Admin](https://github.com/qor/admin) interface.
+Applying Activity to a Resource will add `Comment` and `Track` data/state changes within the [QOR Admin](https://github.com/itech-eng/admin) interface.
 
-[![GoDoc](https://godoc.org/github.com/qor/activity?status.svg)](https://godoc.org/github.com/qor/activity)
+[![GoDoc](https://godoc.org/github.com/itech-eng/activity?status.svg)](https://godoc.org/github.com/itech-eng/activity)
 
 ## Usage
 
 ```go
-import "github.com/qor/admin"
+import "github.com/itech-eng/admin"
 
 func main() {
   Admin := admin.New(&qor.Config{DB: db})
@@ -20,7 +20,7 @@ func main() {
 }
 ```
 
-The above code snippet will add an activity tracking feature to the Order resource in a hypothetical project, which would look a bit like the screenshot below in [QOR Admin](https://github.com/qor/admin):
+The above code snippet will add an activity tracking feature to the Order resource in a hypothetical project, which would look a bit like the screenshot below in [QOR Admin](https://github.com/itech-eng/admin):
 
 ## License
 
